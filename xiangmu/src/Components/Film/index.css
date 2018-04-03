@@ -1,0 +1,85 @@
+#box1 {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px; }
+  #box1 ul {
+    display: flex;
+    flex-direction: row; }
+    #box1 ul li {
+      flex: 1;
+      text-align: center; }
+      #box1 ul li img {
+        display: block;
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0 auto; }
+
+.ulqqq li {
+  float: left;
+  margin: 0 10px; }
+  .ulqqq li span {
+    background: #ccc;
+    padding: 0 5px; }
+
+#box2 {
+  width: 80%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #f87602;
+  border-radius: 5px;
+  margin: 0 auto; }
+  #box2 a {
+    text-decoration: none;
+    color: #f87602; }
+
+#box3 {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px; }
+  #box3 b {
+    float: left;
+    margin-left: 10px; }
+  #box3 span {
+    float: right;
+    margin-right: 10px; }
+
+#footerdiv {
+  width: 100%;
+  height: 50px; }
+
+.tupian {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px; }
+  .tupian li {
+    flex: 1;
+    text-align: center; }
+    .tupian li img {
+      width: 90%;
+      margin: 0 auto; }
+
+.like {
+  width: 100%; }
+  .like li {
+    width: 100%; }
+    .like li dl {
+      width: 100%;
+      display: flex;
+      flex-direction: row; }
+      .like li dl dt {
+        width: 40%;
+        padding-left: 10px; }
+        .like li dl dt img {
+          width: 100%; }
+      .like li dl dd {
+        width: 60%; }
+        .like li dl dd p {
+          font-size: 0.76rem;
+          line-height: 30px; }
+          .like li dl dd p span {
+            padding: 0 5px;
+            border-left: 1px solid #ccc; }
+          .like li dl dd p span:nth-child(1) {
+            border: 0; }

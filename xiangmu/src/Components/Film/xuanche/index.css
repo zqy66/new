@@ -1,0 +1,38 @@
+h3 {
+  margin-top: 50px;
+  padding-left: 20px; }
+
+.xuancheUl {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  /* 	flex-direction:row; */
+  flex-wrap: wrap;
+  overflow: hidden; }
+  .xuancheUl li {
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    table-layout: fixed;
+    word-wrap: break-word;
+    color: 0.2rem; }
+    .xuancheUl li a {
+      text-decoration: none;
+      color: #000; }
+
+.xuancheUl1 {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  /* 	flex-direction:row; */
+  flex-wrap: wrap; }
+  .xuancheUl1 li {
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    table-layout: fixed;
+    word-wrap: break-word;
+    color: 0.2rem; }
+    .xuancheUl1 li a {
+      text-decoration: none;
+      color: #000; }
