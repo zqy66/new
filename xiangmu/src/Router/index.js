@@ -10,6 +10,7 @@ import Home from "../Components/Home";
 import Film from "../Components/Film";
 import Maiche from "../Components/maiche";
 import Zhihuan from "../Components/zhihuan";
+import Datail from "../Components/datail";
 
 import React from "react";
 
@@ -23,6 +24,7 @@ const router=(
 					<Route path="/card" component={Card}/>
 					<Route path="/maiche" component={Maiche}/>
 					<Route path="/zhihuan" component={Zhihuan}/>
+					<Route path="/datail" component={Datail}/>
 				</Switch>
 			</App>
 
