@@ -14,7 +14,7 @@ class Datail extends React.Component{
 					<ul>
 						{
 							this.state.list1.map(item=>
-								<li>{item.SpecailArea.name}</li>
+								<li>{item.Name}</li>
 								)
 						}
 					</ul>
@@ -27,7 +27,7 @@ class Datail extends React.Component{
 		var b = JSON.parse(a.substr(0,a.indexOf(']')+1));
 		console.log(b)
 			this.setState({
-				arrlist:b
+				list1:b
 			})
 		})
 	}

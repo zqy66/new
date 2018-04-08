@@ -1,0 +1,19 @@
+.gujia {
+  width: 100%; }
+  .gujia li {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 50px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc; }
+    .gujia li span {
+      float: right; }
+
+#kaishi {
+  width: 90%;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: red;
+  margin-top: 20px; }

@@ -11,6 +11,8 @@ import Film from "../Components/Film";
 import Maiche from "../Components/maiche";
 import Zhihuan from "../Components/zhihuan";
 import Datail from "../Components/datail";
+import Gujia from "../Components/gujia";
+import Xiangqing from "../Components/xiangqing";
 
 import React from "react";
 
@@ -25,6 +27,8 @@ const router=(
 					<Route path="/maiche" component={Maiche}/>
 					<Route path="/zhihuan" component={Zhihuan}/>
 					<Route path="/datail" component={Datail}/>
+					<Route path="/gujia" component={Gujia}/>
+					<Route path="/xiangqing/:id" exact xomponent={Xiangqing}/>
 				</Switch>
 			</App>
 

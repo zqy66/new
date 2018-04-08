@@ -21,7 +21,7 @@ class Sidebar extends React.Component{
 					<li><NavLink to="/card">新车</NavLink></li>
 					<li><NavLink to="/maiche">卖车</NavLink></li>
 					<li><NavLink to="/zhihuan">置换</NavLink></li>
-
+					<li><NavLink to="gujia">估价</NavLink></li>
 				</ul>
 				:null
 			}

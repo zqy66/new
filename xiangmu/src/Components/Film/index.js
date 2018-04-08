@@ -62,7 +62,7 @@ class Film extends React.Component{
 			<ul className="like">
 				{
 					this.state.arrlist.map(item=>
-						<li>
+						<li key={item.UcarId} onClick={this.handleClick.bind(this,item.UcarId)}>
 							<dl>
 								<dt><img src={item.PicLink}/></dt>
 								<dd>
@@ -108,6 +108,10 @@ class Film extends React.Component{
 				arrlist:b,
 			})
 		})
+	}
+	handleClick(data){
+		console.log(data)
+		this.props.history.push(`/xiangqing/${data}`)
 	}
 }
 
